@@ -1,0 +1,22 @@
+{
+  "name": "routes-user",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Diego Pereira",
+  "license": "ISC",
+  "description": "Este projeto serve como uma revisão atualizada da tecnologia Node e suas dependências.",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prisma": "^5.19.1"
+  }
+}
